@@ -53,7 +53,7 @@ section {
   text-align: center;
   background-color: #fff;
 
-  width: 90%;
+  width: 100%;
 
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -71,7 +71,7 @@ img {
 }
 
 #section1 {
-  padding: 40px;
+  padding-top: 40px;
   background: linear-gradient(to right, #FFFFFF, #466D1D);
 }
 
@@ -108,4 +108,8 @@ footer {
   to {
     opacity: 1;
   }
+}
+
+html {
+  overflow-x: hidden;
 }
